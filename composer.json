@@ -1,0 +1,27 @@
+{
+    "name": "mavimedia/universal-wiper-finder",
+    "description": "mavimedia/universal-wiper-finder",
+    "type": "shopware-platform-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "require": {
+        "shopware/core": "~6.6.0"
+    },
+    "extra": {
+        "shopware-plugin-class": "Mavimedia\\UniversalWiperFinder",
+        "label": {
+            "de-DE": "Universal Wiper Finder",
+            "en-GB": "Universal Wiper Finder"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mavimedia\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mavimedia\\Tests\\": "tests/"
+        }
+    }
+}
