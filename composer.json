@@ -2,7 +2,7 @@
     "name": "mavimedia/universal-wiper-finder",
     "description": "mavimedia/universal-wiper-finder",
     "type": "shopware-platform-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "require": {
         "shopware/core": "~6.6.0"
